@@ -1,7 +1,7 @@
+/* mobile devices */
 html {
-    font-size: 16px;
+    font-size: 12px;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +9,6 @@ body {
     font-size: 1rem;
     color: #444444;
 }
-
 h1,
 h2,
 h3,
@@ -20,6 +19,7 @@ h6 {
     font-weight: 600;
     color: #222222;
 }
+
 
 h1 {
     font-size: 2.5rem;
@@ -44,6 +44,30 @@ h5 {
 h6 {
     font-size: 1rem;
 }
+a {
+    text-decoration: none;
+    color: #93c5fd;
+}
+
+
+a:hover,
+a:focus {
+    color: #60a5fa;
+}
+
+
+
+/*tablets*/
+@media screen and (min-width: 576px) {
+    
+    
+}
+/*laptops*/
+@media screen and (min-width: 890px)
+
+/*
+
+
 
 .logo-image {
     height: 30px;
@@ -66,15 +90,7 @@ h1 {
     margin: 0px auto;
 }
 
-a {
-    text-decoration: none;
-    color: #93c5fd;
-}
 
-a:hover,
-a:focus {
-    color: #60a5fa;
-}
 
 #description {
     width: 50%;
@@ -189,3 +205,4 @@ h2 {
     color: gray;
     font-size: 0.875rem;
 }
+*/
