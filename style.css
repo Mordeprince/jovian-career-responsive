@@ -1,0 +1,191 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+.logo-image {
+    height: 30px;
+    margin-bottom: 7px;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+#banner {
+    width: 100%;
+    object-fit: cover;
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+    color: #93c5fd;
+}
+
+a:hover,
+a:focus {
+    color: #60a5fa;
+}
+
+#description {
+    width: 50%;
+    padding: 0px 8px;
+    margin: 0px auto;
+    font-size: 1.25rem;
+
+}
+
+#team-image {
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+#team {
+    width: 50%;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+#job {
+    max-width: 800px;
+    padding: 0px 8px;
+    margin: 0px auto;
+}
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+#jobs-table tr:nth-child(even) {
+    background-color: #f5f3ff;
+}
+
+.job-table-header th {
+    border: 1px solid grey;
+    padding: 8px;
+    background-color: #eff6ff;
+    text-align: center;
+    color: #222222;
+}
+
+.job-table-data td {
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+.form-group {
+    margin-top: 16px;
+}
+#application-form {
+    padding: 8px;
+    
+
+}
+
+#application-form label {
+    font-weight: 600;
+}
+
+
+#application-form input, select, textarea {
+    padding: 8px;
+    margin-top: 4px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.form-group textarea {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+.form-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+.form-group input[type="submit"] {
+    background-color: #38bdf8;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+#footer {
+    background-color: #f3f4f6;
+    padding: 8px;
+    text-align: center;
+}
+
+#footer-links {
+    list-style: none;
+
+}
+
+#footer-links li {
+    display: inline;
+    padding: 0px 8px;
+}
+
+.copyright {
+    color: gray;
+    font-size: 0.875rem;
+}
