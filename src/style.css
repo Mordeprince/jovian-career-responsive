@@ -2,6 +2,7 @@
 html {
     font-size: 12px;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     font-size: 1rem;
     color: #444444;
 }
+
 h1,
 h2,
 h3,
@@ -44,6 +46,7 @@ h5 {
 h6 {
     font-size: 1rem;
 }
+
 a {
     text-decoration: none;
     color: #93c5fd;
@@ -55,47 +58,33 @@ a:focus {
     color: #60a5fa;
 }
 
-
-
-/*tablets*/
-@media screen and (min-width: 576px) {
-    
-    
-}
-/*laptops*/
-@media screen and (min-width: 890px)
-
-/*
-
-
-
 .logo-image {
     height: 30px;
-    margin-bottom: 7px;
-}
-
-h1 {
-    text-align: center;
-
+    padding: 4px;
 }
 
 #banner {
     width: 100%;
     object-fit: cover;
+    height: 150px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin: 12px 0;
+
 }
 
 #about {
     display: flex;
-    max-width: 800px;
+    flex-direction: column;
+    max-width: 500px;
     margin: 0px auto;
+    padding: 8px;
 }
 
-
-
 #description {
-    width: 50%;
-    padding: 0px 8px;
-    margin: 0px auto;
     font-size: 1.25rem;
 
 }
@@ -106,22 +95,42 @@ h1 {
 
 }
 
-#team {
-    width: 50%;
-}
-
-
 h2 {
     text-align: center;
+    margin: 4px 0;
 }
 
 #job {
-    max-width: 800px;
+    max-width: 500px;
     padding: 0px 8px;
     margin: 0px auto;
 }
 
+#jobs-list {
+    display: block;
+}
+
+.jobs {
+    border: 1px solid #dddddd;
+margin-top: 8px;
+padding: 8px;
+border-radius: 5px;
+background-color: #dddddd;
+}
+
+.job-title {
+font-size: 1.2rem;
+font-weight: 500;
+color: #222222;
+}
+
+.job-detail {
+    margin-top: 4px;
+    color: #555555;
+}
+
 #jobs-table {
+    display: none;
     width: 100%;
     border: 1px solid gray;
     border-collapse: collapse;
@@ -143,9 +152,8 @@ h2 {
     border: 1px solid grey;
     padding: 8px;
 }
-
 #application {
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 0 8px;
 }
@@ -165,6 +173,7 @@ h2 {
 
 #application-form input, select, textarea {
     padding: 8px;
+    width: 90%;
     margin-top: 4px;
     font-size: 1.25rem;
     border-radius: 5px;
@@ -193,16 +202,84 @@ h2 {
 
 #footer-links {
     list-style: none;
+padding-left: 0;
 
 }
 
 #footer-links li {
-    display: inline;
     padding: 0px 8px;
+    margin-bottom: 8px;
 }
 
 .copyright {
     color: gray;
     font-size: 0.875rem;
 }
-*/
+
+
+
+
+/*tablets*/
+@media screen and (min-width: 576px) {
+    #banner {
+        height: 200px;
+    }
+
+    h1 {
+        margin: 16px 0;
+    }
+    #application-form input, select {
+        width: auto;
+    }
+#footer-links li {
+    display: inline;
+}
+
+
+}
+
+/*laptops*/
+@media screen and (min-width: 768px) {
+    #banner {
+        height: 250px;
+    }
+
+    h1 {
+        margin: 20px 0;
+    }
+
+    #about {
+        max-width: 800px;
+        flex-direction: row;
+    }
+
+    #description {
+        width: 50%;
+        padding-right: 8px;
+    }
+
+    #team {
+        width: 50%;
+    }
+
+    h2 {
+        margin: 14px 0;
+    }
+
+    #job {
+        max-width: 800px;
+    }
+
+    #jobs-list {
+        display: none;
+    }
+
+    #jobs-table {
+        display: table;
+    }
+
+    #appliction {
+        max-width: 800px;
+    }
+
+}
